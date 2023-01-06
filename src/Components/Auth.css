@@ -1,0 +1,41 @@
+#loginCard{
+    width: 40%;
+}
+
+@media (max-width: 800px) {
+    #loginCard{
+        width: 50%;
+    }
+}
+
+#signUpCard,#signUpRole{
+    width: 45%;
+}
+
+@media (max-width: 1225px) {
+    #signUpCard{
+        width: 60%;
+    }
+}
+
+#signUpName, #signUpPhoneAndRole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    #signUpName, #signUpPhoneAndRole{
+        display: flex;
+        flex-direction: column;
+    }
+    #signUpRole{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    #loginCard, #signUpCard{
+        width: 90%;
+    }
+}

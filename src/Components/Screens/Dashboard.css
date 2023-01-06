@@ -1,0 +1,16 @@
+#dashboardCards .card{
+    width: 40%;
+}
+
+@media (max-width: 991px) {
+    #dashboardCards .card{
+        width: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    #dashboardCards .card{
+        width: 100%;
+    }
+}
+
